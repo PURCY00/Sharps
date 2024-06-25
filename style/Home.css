@@ -1,0 +1,47 @@
+.generator-ID {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(218, 23%, 16%);
+  }
+  
+  .Main-box {
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 10px;
+    padding: 40px 20px;
+    text-align: center;
+    position: relative;
+    max-width:580px;
+    width: 100%;
+  }
+  
+  .Text {
+
+    color: hsl(193, 38%, 86%); 
+    font-family: 'Manrope', sans-serif;
+    margin: 20px 0;
+    font-weight: 800;
+    font-size: 28px;
+  }
+  
+  .Line {
+    margin: 20px 0;
+  }
+  
+  .Button {
+    background-color: hsl(150, 100%, 66%); 
+    border: none;
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+  }
+  
+  .Dice-button img {
+    width: 24px; 
+    height: 24px;
+  }

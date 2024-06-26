@@ -30,18 +30,26 @@
   }
   
   .Button {
+    transform: translateX(-50%);
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
     background-color: hsl(150, 100%, 66%); 
     border: none;
     position: absolute;
     bottom: -25px;
     left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-    padding: 15px;
-    border-radius: 50%;
+   
   }
   
   .Dice-button img {
     width: 24px; 
     height: 24px;
   }
+
+
+@media screen {
+
+
+    
+}
